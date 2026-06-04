@@ -42,15 +42,33 @@ let str1="Gauri"
 let str2=" Badgujar"
 let str3=str1+str2
 
-console.log(str3);
+// console.log(str3);
 
-console.log("1"+2);
-console.log(1+"2");
-console.log(1+2);
-console.log("1"+ 2 +2);
-console.log(1 +2 + "2");// not depend on this
-console.log(1 +"2" + 2+2);
-console.log(1 +2 + "2"+2);
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log(1+2);
+// console.log("1"+ 2 +2);//if string first then treat all as string but if simpple then first conversion 
+// console.log(1 +2 + "2");// not depend on this
+// console.log(1 +"2" + 2+2);
+// console.log(1 +2 + "2"+2);
+// console.log((1 +2) * 2 % 2); // for such type used paranthesis it is good 
+
+console.log(+true);//it is not good thing
+console.log(+"");
+
+let num1,num2,num3
+
+num1=num2=num3=2+1 //it is also not good practice
+
+let gameCounter=100   // in prefix value before increment postfix me after incremrent 
+//for extra info see js  mdn preand post see
+gameCounter++  
+console.log(gameCounter);
+
+
+
+
+
 
 
 
