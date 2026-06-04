@@ -3,8 +3,8 @@ let score=33
 //console.log(typeof score);
 //console.log(typeof(score)); //using method
 
-let valueInNumber=Number(score) //doing conversion strinf to number
-console.log(typeof valueInNumber);
+// let valueInNumber=Number(score) //doing conversion strinf to number
+// console.log(typeof valueInNumber);
 
 // let score=33abc,null,undefined,true
 
@@ -21,17 +21,37 @@ console.log(typeof valueInNumber);
 
 let bool="gauri"  //now we want to convert it 
 
-let newOne=Boolean(bool)
-console.log(newOne);
+// let newOne=Boolean(bool)
+// console.log(newOne);
 
 //when 1 then in boolean it is true ,0 then false
 //"" =>false
 //"gauri"=>true5
 
-let somenumber=45
-let stringNumber=String(somenumber)
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+ let somenumber=45
+// let stringNumber=String(somenumber)
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
+
+// ---------------------OPERATIONS-------------------------------------------//
+let value=3
+let negValue=-value
+//console.log(negValue);
+
+let str1="Gauri"
+let str2=" Badgujar"
+let str3=str1+str2
+
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+2);
+console.log("1"+ 2 +2);
+console.log(1 +2 + "2");// not depend on this
+console.log(1 +"2" + 2+2);
+console.log(1 +2 + "2"+2);
+
 
 
 
