@@ -1,4 +1,4 @@
-# JavaScript Notes – Lecture 6 & 7
+# JavaScript Notes – Lecture 7 and 8
 
 ## Comparison Operators
 
