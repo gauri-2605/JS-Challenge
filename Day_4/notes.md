@@ -1,4 +1,4 @@
-# JavaScript Data Types & Memory Management Notes
+#lecture 9,10  JavaScript Data Types & Memory Management
 
 ## Overview
 
