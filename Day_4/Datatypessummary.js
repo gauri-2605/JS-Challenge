@@ -58,6 +58,35 @@ console.log(typeof id);
 console.log(typeof outsideTemp);
 console.log(typeof isLoggedIn);
 
+/*----------------------------------------------------------------
+Memory are 2 types Stack and Heap
+
+Stack():In primitive it is used, stack used means get a copy of variable
+Heap():In non-primitive ,and here get reference of original value
+
+*/
+let myYoutubename="hiteshchoudhari"
+
+let anothername = myYoutubename  //so here we give copy not original and hence changes made in copy 
+//console.log(anothername);
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne=
+{
+    email:"user@google.com",
+    upi:"user@ybl"
+
+}
+let userTwo = userOne
+
+userTwo.email ="gauri@123" // in object we accesed using dot operator
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
 
