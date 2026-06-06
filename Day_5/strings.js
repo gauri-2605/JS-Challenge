@@ -39,6 +39,11 @@ console.log(url.includes('hitesh'));
 const gameName1="gauri-bg-com"
 console.log((gameName1.split('-')));
 
+const str = "The quick brown fox jumps over the lazy dog.";
+
+const words = str.split(" ");
+console.log(words[10]);
+
 
 
 
