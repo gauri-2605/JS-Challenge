@@ -37,7 +37,7 @@ const myn2 = myArr.splice(1, 3) // 1 ,2 include and 3 not include
 
 console.log("C ",myArr);
 console.log(myn2);
-
+console.log(myn1);
 
 
 
