@@ -87,5 +87,21 @@ console.log(course_Instructor);
 
 /* API  :APNA KAM DUSRO KO DENA
 API nothing but  values comes from backendand how you use this values
-in earlier Value comess  in xml this is very complicated ,nnow it is JSON
-/*
+in earlier Value comess  in xml this is very complicated ,now it is JSON
+
+JSON look like ,it is object but without name.In JSON keys and value both are string
+*/
+
+// {
+//   "name" :"Gauri",
+//   "course_name" : JS,
+//   price: "free"
+// }
+
+//Not need ki api always in object ,some time in array
+
+[
+    {},
+    {},
+    {}
+]
