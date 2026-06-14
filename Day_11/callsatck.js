@@ -10,7 +10,7 @@ browser GEC is window.Run in thread ,JS is single threaded.
 3.Eval EC  :Mongos,and all inludes
 
 Also Memory creation phase: Only for variables memory alloctaed
-Execution Phase:-,+ math operation here runs
+Execution Phase: -,+ math operation here runs
 */
 
 
@@ -23,6 +23,12 @@ function addNUm(n1,n2)
     return total
 }
 let result = addNUm(val1, val2)
+let result =addNUm(10,7)
 console.log(result);
+
+/*Call Stack
+
+In first Always Global E there then functions comes ,works perform qnd thrn removes.
+
 
 
